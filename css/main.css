@@ -1,26 +1,28 @@
 * {
-    margin:0px;
-    padding:0px;
-    border:none;
-    outline:none;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
     box-sizing: border-box;
 }
 section {
     clear: both;
     display: inline-block;
-    width:100%;
+    width: 100%;
 }
 .clear {
-    clear:both;
+    clear: both;
 }
-a { text-decoration:none; cursor:pointer;}
-
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
 /* Grid */
 
 .row {
     margin-right: -15px;
     margin-left: -15px;
-} 
+}
 .col-12 {
     width: 100%;
     float: left;
@@ -31,13 +33,11 @@ a { text-decoration:none; cursor:pointer;}
     float: left;
     padding: 0 15px;
 }
-
 .col-4 {
-     width: 33.33333333%;
+    width: 33.33333333%;
     float: left;
     padding: 0 15px;
 }
-
 .col-3 {
     width: 25%;
     float: left;
@@ -48,9 +48,7 @@ a { text-decoration:none; cursor:pointer;}
     float: left;
     padding: 0 15px;
 }
-
 /* End of Grd */
-
 
 /* Main Cover CSS */
 
@@ -78,14 +76,12 @@ a { text-decoration:none; cursor:pointer;}
     min-height: 75px;
     padding-top: 33px;
 }
-
-
-
 #nav-icon {
     width: 28px;
     height: 45px;
     position: relative;
     /*margin: 35px 35px 0px 0px;*/
+    
     float: right;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -165,7 +161,6 @@ a { text-decoration:none; cursor:pointer;}
     opacity: 0;
 }
 #nav-icon.open span:nth-child(5) {
-
     left: 5px;
     top: 12px;
 }
@@ -173,12 +168,10 @@ a { text-decoration:none; cursor:pointer;}
     left: 10px;
     top: 12px;
 }
-       
 #nav {
     float: right;
     display: inline-block;
     padding: 9px 0px;
-    
 }
 #nav>ul {
     list-style: none;
@@ -188,7 +181,7 @@ a { text-decoration:none; cursor:pointer;}
     /*margin-left: 30px;*/
 }
 #nav>ul>li>a {
-       color: #222222;
+    color: #222222;
     padding: 0px 22px;
     text-transform: uppercase;
     text-decoration: none;
@@ -200,19 +193,21 @@ a { text-decoration:none; cursor:pointer;}
     /*height: 32px;*/
     /*padding: 15px 15px;*/
     /*line-height: 20px;*/
+    
     max-width: 150px;
     display: inline-block;
 }
 .navbar-logo>img {
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
 .nav>li {
-	position: relative;
+    position: relative;
     display: block;
 }
-
-
+.header-soc {
+    display: none;
+}
 .main-cover {
     position: relative;
     background: url(../images/background.png) no-repeat center center;
@@ -221,36 +216,35 @@ a { text-decoration:none; cursor:pointer;}
     max-height: 695px;
     color: #222222;
 }
-
 .inner {
-	max-width: 640px;
-	display: block;
-	position: relative;
-	text-align: center;
-	margin: auto;
-	margin-top: 134px;
-	font-family: 'Roboto', sans-serif;
+    max-width: 640px;
+    display: block;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 134px;
+    font-family: 'Roboto', sans-serif;
 }
 .cover-heading {
-	font-size: 80px;
+    font-size: 80px;
     text-align: center;
 }
 .cover-subheading {
-	font-size: 24px;
-	line-height: 30px;
-	padding: 35px;
-	font-weight: 400; 
+    font-size: 24px;
+    line-height: 30px;
+    padding: 35px;
+    font-weight: 400;
 }
 .cover-subheading-res {
     display: none;
 }
 .hr-main {
-	width: 10%;
+    width: 10%;
     color: #c41230;
     text-align: center;
     margin: auto;
     display: block;
-        margin-top: 15px;
+    margin-top: 15px;
     margin-bottom: 7px;
 }
 .hr-main {
@@ -265,10 +259,10 @@ a { text-decoration:none; cursor:pointer;}
 
 #services {
     /*min-height: 480px;*/
+    
     width: 100%;
     display: block;
     background-color: #fff;
-
 }
 .services-text {
     color: #666666;
@@ -277,7 +271,6 @@ a { text-decoration:none; cursor:pointer;}
     font-family: 'Roboto', sans-serif;
     padding: 0px 65px;
     text-align: center;
-
 }
 .services-heading {
     text-transform: uppercase;
@@ -294,7 +287,6 @@ a { text-decoration:none; cursor:pointer;}
     margin: 40px auto;
     display: block;
     border-top: 2px solid #d0d0d0;
-    
 }
 .ser-icon {
     max-width: 100px;
@@ -315,15 +307,14 @@ a { text-decoration:none; cursor:pointer;}
 }
 .bg-column {
     background-color: #fbfbfb;
-
 }
 .pb-77 {
     padding-bottom: 77px;
 }
-
 /* End of section Services CSS */
 
-/* Section Jobs CSS */ 
+/* Section Jobs CSS */
+
 #jobs {
     position: relative;
     display: block;
@@ -340,12 +331,12 @@ a { text-decoration:none; cursor:pointer;}
     margin-bottom: 40px;
 }
 .jobs-subtitle {
-     color: #999999;
+    color: #999999;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
-        padding-bottom: 22px;
+    padding-bottom: 22px;
 }
 .jobs-title {
     color: #222222;
@@ -367,8 +358,8 @@ a { text-decoration:none; cursor:pointer;}
 .job-item {
     position: relative;
     display: block;
-        padding-top: 7px;
-        padding-bottom: 50px;
+    padding-top: 7px;
+    padding-bottom: 50px;
 }
 .job-head {
     padding-bottom: 143px;
@@ -376,54 +367,57 @@ a { text-decoration:none; cursor:pointer;}
 .job-item-title {
     text-align: left;
     font-size: 20px;
-     font-family: 'Roboto', sans-serif;
-     color: #222222;
-     text-transform: uppercase;
-     padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+    padding-bottom: 30px;
 }
 .job-item-about {
-        text-align: left;
+    text-align: left;
     font-size: 18px;
-     font-family: 'Roboto', sans-serif;
-     color: #222222;
-     font-weight: 300;
-     padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+    font-weight: 300;
+    padding-bottom: 40px;
 }
 .tag {
     float: left;
     /*width: 85px;*/
+    
     height: 32px;
     border: 2px solid #eee;
     margin-right: 10px;
-
 }
 .tag-light {
     float: left;
     /*width: 85px;*/
+    
     height: 32px;
     border: 2px solid #fff;
     margin-right: 10px;
-
 }
-.tag p{
+.tag p {
     color: #c41230;
     /*text-transform: uppercase;*/
+    
     font-size: 13px;
-     font-family: 'Roboto', sans-serif;
-     padding: 5px 20px 0px 20px;
-     text-align: center;
-     pad
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+    pad
 }
-.tag-light p{
+.tag-light p {
     color: #fff;
     /*text-transform: uppercase;*/
+    
     font-size: 13px;
-     font-family: 'Roboto', sans-serif;
-     padding: 5px 20px 0px 20px;
-     text-align: center;
-     pad
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+    pad
 }
-.job-button, .job-button-light {
+.job-button,
+.job-button-light {
     float: right;
     display: block;
     margin-top: 50px;
@@ -433,16 +427,16 @@ a { text-decoration:none; cursor:pointer;}
     border: 2px solid #222222;
     text-transform: uppercase;
     font-size: 14px;
-     font-family: 'Roboto', sans-serif;
-     padding: 18px 38px;
+    font-family: 'Roboto', sans-serif;
+    padding: 18px 38px;
 }
 .prijava-light {
     color: #fff;
     border: 2px solid #fff;
     text-transform: uppercase;
     font-size: 14px;
-     font-family: 'Roboto', sans-serif;
-     padding: 18px 38px;
+    font-family: 'Roboto', sans-serif;
+    padding: 18px 38px;
 }
 .bg-dark {
     background-color: #222222;
@@ -473,13 +467,15 @@ a { text-decoration:none; cursor:pointer;}
     padding-bottom: 136px;
 }
 /* End of Jobs section CSS */
+
 /* About US */
 
 #about-us {
-        position: relative;
+    position: relative;
     display: block;
-   /* padding-top: 93px;*/
-       min-height: 630px;
+    /* padding-top: 93px;*/
+    
+    min-height: 630px;
 }
 .pt-50 {
     padding-top: 50px;
@@ -487,10 +483,10 @@ a { text-decoration:none; cursor:pointer;}
 .about-us-text {
     font-size: 18px;
     color: #222222;
-     color: #222222;
+    color: #222222;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-        padding-left: 85px;
+    padding-left: 85px;
     padding-right: 85px;
     padding-top: 30px;
 }
@@ -512,19 +508,22 @@ a { text-decoration:none; cursor:pointer;}
     text-align: center;
     padding-top: 5px;
 }
-.twitter, .facebook {
+.twitter,
+.facebook {
     float: left;
     margin-right: 15px;
     max-width: 65px;
     height: auto;
 }
-.twitter img, .facebook img {
+.twitter img,
+.facebook img {
     width: 100%;
     height: auto;
 }
 /* End Social Section CSS */
 
-/* Footer CSS*/ 
+/* Footer CSS*/
+
 footer {
     display: block;
     position: relative;
@@ -540,10 +539,10 @@ footer {
     color: #f2f2f2;
     min-height: 71px;
 }
-.marker, .location-title {
+.marker,
+.location-title {
     float: left;
     margin-right: 12px;
-
 }
 .location-head {
     padding-bottom: 16px;
@@ -553,8 +552,7 @@ footer {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     text-transform: uppercase;
-        padding-top: 10px;
-
+    padding-top: 10px;
 }
 .location-info {
     color: #666666;
@@ -571,14 +569,13 @@ footer {
     padding-top: 135px;
 }
 .copyright {
-    
     float: left;
-    
 }
 .ft-social {
     float: right;
 }
-.copyright p, .copyright-mob p {
+.copyright p,
+.copyright-mob p {
     font-weight: 300;
     text-transform: uppercase;
     font-size: 12px;
@@ -586,10 +583,9 @@ footer {
     opacity: 0.2;
     font-family: 'Roboto', sans-serif;
 }
-.copyright-mob {
-
-}
-.ft-twitter, .ft-facebook, .ft-site {
+.copyright-mob {} .ft-twitter,
+.ft-facebook,
+.ft-site {
     float: left;
     margin-right: 28px;
 }
@@ -601,77 +597,97 @@ footer {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
-
 }
-  .footer-bottom-mob {
-        display: none;
-    }
+.footer-bottom-mob {
+    display: none;
+}
 /* End of Footer */
-
 /* Responsive */
 
 @media (max-width: 1024px) {
-
-#nav-icon {
-    display: block;
-}
-#nav {
-    display: none;
-}
-#nav.active {
-    display: block !important;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    top: 80px;
-    right: 0;
-}
-#nav {
-    float: none !important;
-    width: 100%;
-}
-#nav ul {
-    width: 100%;
-    float: none;
-    background: #222222;
+    #nav-icon {
+        display: block;
+    }
+    #nav {
+        display: none;
+    }
+    #nav.active {
+        display: block !important;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        top: 80px;
+        right: 0;
+    }
+    #nav {
+        float: none !important;
+        width: 100%;
+    }
+    #nav ul {
+        width: 100%;
+        float: none;
+        background: #222222;
         opacity: 0.98;
-            padding: 100px 0px;
-                overflow: hidden;
-    z-index: 1;
-}
-#nav>ul>li {
-    display: inline-block !important;
-    height: 100px !important;
-    min-width: 100px !important;
-    text-align: center !important;
-    height: auto !important;
-    width: 100% !important;
-    padding: 29px 0px;
-}
-#nav>ul>li>a {
-    color: #cccccc;
-    font-size: 24px;
-    font-weight: 300;
-}
-.container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-.cover-heading {
-    font-size: 60px;
-}
-
+        padding: 100px 0px;
+        overflow: hidden;
+        z-index: 1;
+    }
+    #nav>ul>li {
+        display: inline-block !important;
+        height: 100px !important;
+        min-width: 100px !important;
+        text-align: center !important;
+        height: auto !important;
+        width: 100% !important;
+        padding: 29px 0px;
+    }
+    #nav>ul>li>a {
+        color: #cccccc;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    .header-soc {
+        display: block;
+        position: relative;
+        bottom: 54px;
+    }
+    .header-soc-title {
+        color: #cccccc;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        opacity: 0.5;
+        float: left;
+        text-transform: uppercase;
+    }
+    .header-social-icon {
+        float: right;
+    }
+    .header-tw,
+    .header-fb {
+        float: left;
+        margin-right: 28px;
+    }
+    .header-tw {
+        padding-top: 3px;
+    }
+    .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .cover-heading {
+        font-size: 60px;
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-.main-cover {
+    .main-cover {
         height: 490px;
-}
-.inner {
+    }
+    .inner {
         margin-top: 88px;
-}
-.services-text {
-    padding: 0px 15px;
-}
+    }
+    .services-text {
+        padding: 0px 15px;
+    }
 }
 @media (max-width: 768px) {
     .hidden {
@@ -690,124 +706,121 @@ footer {
         margin-top: 0px;
     }
     .col-mob-12 {
-    width: 100%;
-    float: none;
-    padding-right: 15px;
-    padding-left: 15px;
-    display: block;
-    
-}
-.col-mob-6 {
-    width: 50%;
-    float: left;
-    padding: 0 15px;
-}
+        width: 100%;
+        float: none;
+        padding-right: 15px;
+        padding-left: 15px;
+        display: block;
+    }
+    .col-mob-6 {
+        width: 50%;
+        float: left;
+        padding: 0 15px;
+    }
     .cover-subheading-res {
-    font-size: 20px;
-    line-height: 30px;
-    padding: 35px;
-    font-weight: 400; 
-    text-transform: uppercase;
-    display: block;
-}
-.cover-subheading {
-    display: none;
-}  
-.jobs-title {
-    font-size: 40px;
-} 
-.looking {
-    font-size: 20px;
-    padding-top: 0px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.about-us-text {
-    font-size: 18px;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 15px;
-}
-.job-item-title {
-    font-size: 18px;
-}
-.job-item-about {
-    font-size: 15px;
-}
-.tag {
-    border: none !important;
-}
-.tag p {
-    padding: 0px !important;
-}
-.tag-light {
-    border: none !important;
-}
-.tag-light p {
-    padding: 0px !important;
-}
-.job-item-title {
-    padding-bottom: 25px !important;
-}
-.job-item-about {
-    padding-bottom: 15px !important;
-}
-.bg-silver-res {
-    background-color: #f8f7f5;
-}
-.color-dark-res {
-    color: #222222 !important;
-}
-.red-res {
-    color: #c41230 !important;
-}
-.bg-dark {
-    background-color: transparent;
-}
-.job-item {
-    padding-bottom: 32px;
-}
-.job-head {
-    padding-bottom: 84px;
-}
-.pt-25 {
-    padding-top: 25px !important;
-}
-#jobs {
-    padding-top: 65px;
-}
-.pt-30 {
-    padding-top: 30px !important;
-}
-#social {
-   
-    
-    min-height: 267px;
-   
-}
-.ft-site {
-    float: right !important;
-
-}
-.ft-twitter, .ft-site, .ft-facebook {
-    margin-right: 4px !important;
-}
-.pt-135 {
-    padding-top: 86px;
-}
-.pb-52 {
-    padding-bottom: 52px;
-}
-.copyright-mob {
-    text-align: center;
-}
-.ft-social-mob {
-    float: left;
-}
-.footer-bottom {
-    min-height: 50px;
-}
+        font-size: 20px;
+        line-height: 30px;
+        padding: 35px;
+        font-weight: 400;
+        text-transform: uppercase;
+        display: block;
+    }
+    .cover-subheading {
+        display: none;
+    }
+    .jobs-title {
+        font-size: 40px;
+    }
+    .looking {
+        font-size: 20px;
+        padding-top: 0px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .about-us-text {
+        font-size: 18px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 15px;
+    }
+    .job-item-title {
+        font-size: 18px;
+    }
+    .job-item-about {
+        font-size: 15px;
+    }
+    .tag {
+        border: none !important;
+    }
+    .tag p {
+        padding: 0px !important;
+    }
+    .tag-light {
+        border: none !important;
+    }
+    .tag-light p {
+        padding: 0px !important;
+    }
+    .job-item-title {
+        padding-bottom: 25px !important;
+    }
+    .job-item-about {
+        padding-bottom: 15px !important;
+    }
+    .bg-silver-res {
+        background-color: #f8f7f5;
+    }
+    .color-dark-res {
+        color: #222222 !important;
+    }
+    .red-res {
+        color: #c41230 !important;
+    }
+    .bg-dark {
+        background-color: transparent;
+    }
+    .job-item {
+        padding-bottom: 32px;
+    }
+    .job-head {
+        padding-bottom: 84px;
+    }
+    .pt-25 {
+        padding-top: 25px !important;
+    }
+    #jobs {
+        padding-top: 65px;
+    }
+    .pt-30 {
+        padding-top: 30px !important;
+    }
+    #social {
+        min-height: 267px;
+    }
+    .ft-site {
+        float: right !important;
+    }
+    .ft-twitter,
+    .ft-site,
+    .ft-facebook {
+        margin-right: 4px !important;
+    }
+    .pt-135 {
+        padding-top: 86px;
+    }
+    .pb-52 {
+        padding-bottom: 52px;
+    }
+    .copyright-mob {
+        text-align: center;
+    }
+    .ft-social-mob {
+        float: left;
+    }
+    .footer-bottom {
+        min-height: 50px;
+    }
 }
 @media (min-width: 768px) {
     .full-hidden {
