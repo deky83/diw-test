@@ -45,11 +45,11 @@
 
                     <div id="nav" class="">
                         <ul>
-                            <li><a href="#">O nama</a>
+                            <li><a href="#services">O nama</a>
                             </li>
-                            <li><a href="#">Poslovi</a>
+                            <li><a href="#jobs">Poslovi</a>
                             </li>
-                            <li><a href="#">Kontakt</a>
+                            <li><a href="#ft">Kontakt</a>
                             </li>
 
                         </ul>
@@ -282,7 +282,7 @@
 
         </section>
         <footer>
-            <div class="footer-top">
+            <div class="footer-top" id="ft">
                 <div class="row container-header pt-135">
                     <div class="col-4 col-mob-12 pb-52">
                         <div class="location-head">
@@ -392,6 +392,21 @@
                     $("#nav").toggleClass("active");
                 });
             });
+
+            $(function() {
+				  $('a[href*="#"]:not([href="#"])').click(function() {
+				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      if (target.length) {
+				        $('html, body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000);
+				        return false;
+				      }
+				    }
+				  });
+				});
         </script>
 
         <body>
