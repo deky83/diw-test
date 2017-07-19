@@ -43,6 +43,11 @@ a { text-decoration:none; cursor:pointer;}
     float: left;
     padding: 0 15px;
 }
+.col-8 {
+    width: 66.66666667%;
+    float: left;
+    padding: 0 15px;
+}
 
 /* End of Grd */
 
@@ -314,6 +319,134 @@ a { text-decoration:none; cursor:pointer;}
 
 /* End of section Services CSS */
 
+/* Section Jobs CSS */ 
+#jobs {
+    position: relative;
+    display: block;
+    padding-top: 93px;
+}
+.hr-job {
+    width: 10%;
+    color: #c41230;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border-top: 2px solid #c41230;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.jobs-subtitle {
+     color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+        padding-bottom: 22px;
+}
+.jobs-title {
+    color: #222222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.looking {
+    color: #222222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 30px;
+}
+.job-item {
+    position: relative;
+    display: block;
+        padding-top: 7px;
+        padding-bottom: 50px;
+}
+.job-head {
+    padding-bottom: 143px;
+}
+.job-item-title {
+    text-align: left;
+    font-size: 20px;
+     font-family: 'Roboto', sans-serif;
+     color: #222222;
+     text-transform: uppercase;
+     padding-bottom: 30px;
+}
+.job-item-about {
+        text-align: left;
+    font-size: 18px;
+     font-family: 'Roboto', sans-serif;
+     color: #222222;
+     font-weight: 300;
+     padding-bottom: 40px;
+}
+.tag {
+    float: left;
+    /*width: 85px;*/
+    height: 30px;
+    border: 2px solid #eee;
+    margin-right: 10px;
+
+}
+.tag-light {
+    float: left;
+    /*width: 85px;*/
+    height: 32px;
+    border: 2px solid #fff;
+    margin-right: 10px;
+
+}
+.tag p{
+    color: #c41230;
+    text-transform: uppercase;
+    font-size: 13px;
+     font-family: 'Roboto', sans-serif;
+     padding: 5px 20px 0px 20px;
+     text-align: center;
+     pad
+}
+.tag-light p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+     font-family: 'Roboto', sans-serif;
+     padding: 5px 20px 0px 20px;
+     text-align: center;
+     pad
+}
+.job-button, .job-button-light {
+    float: right;
+    display: block;
+    margin-top: 50px;
+}
+.prijava {
+    color: #222222;
+    border: 2px solid #222222;
+    text-transform: uppercase;
+    font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     padding: 18px 38px;
+}
+.prijava-light {
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+     font-family: 'Roboto', sans-serif;
+     padding: 18px 38px;
+}
+.bg-dark {
+    background-color: #222222;
+}
+.light {
+    color: #fff !important;
+}
+/* End of Jobs section CSS
 
 /* Responsive */
 
