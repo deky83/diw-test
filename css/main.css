@@ -187,6 +187,7 @@ a {
     text-decoration: none;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 15px;
 }
 .navbar-logo {
     float: left;
@@ -628,7 +629,7 @@ footer {
         float: none;
         background: #222222;
         opacity: 0.98;
-        padding: 100px 0px;
+        padding: 100px 0px 142px 0px;
         overflow: hidden;
         z-index: 1;
     }
@@ -658,6 +659,7 @@ footer {
         opacity: 0.5;
         float: left;
         text-transform: uppercase;
+        padding-left: 28px;
     }
     .header-social-icon {
         float: right;
@@ -804,7 +806,7 @@ footer {
     .ft-twitter,
     .ft-site,
     .ft-facebook {
-        margin-right: 4px !important;
+        margin-right: 0px !important;
     }
     .pt-135 {
         padding-top: 86px;
@@ -826,4 +828,48 @@ footer {
     .full-hidden {
         display: none;
     }
+}
+/* Hover Elements */
+
+
+.prijava:hover  {
+    color: #fff;
+    background-color: #222222;
+    transition: all 0.3s ease-in;
+
+}
+.prijava-light:hover {
+    color: #222222;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+
+}
+.tag:hover{
+    background-color: #eee;
+    transition: all 0.3s ease-in;
+}
+.tag-light p:hover {
+    
+    color: #222222;
+    transition: all 0.3s ease-in;
+}
+.tag-light:hover {
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+}
+
+.load-more:hover {
+    background-color: #333333;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+.load-more:hover a{
+ 
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+.twitter:hover, .facebook:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in;
+
 }
